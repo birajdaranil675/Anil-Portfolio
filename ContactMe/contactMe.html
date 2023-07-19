@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="user_style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Anil's Protfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="left">
+                <div class="form-section">
+                    <form>
+                        <div>
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter Name">
+                        </div>
+                        <div>
+                            <label for="email" class="form-label">Email</label>
+                            <input type="text" id="email" class="form-control" placeholder="Enter E-mail">
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary" onclick="registerUser()">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="right">This right section</div>
+        </div>
+    </main>
+
+
+
+    <script src="./userManagement.js"></script>
+</body>
+
+</html>
